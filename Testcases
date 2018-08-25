@@ -1,0 +1,16 @@
+As a customer, I can access Storefront (https://elguntors-stg.salesfloor.net/reggie)
+As a customer, I see the “LIVE CHAT” status as either “Available” or “Unavailable”
+    Verify that the text colour of Available is green and Unavailable is red.
+As a customer, I can submit an appointment request.
+    Click on “APPOINTMENT REQUEST”, in the above URL.
+    Choose “Phone” for “Selection Appointment Type”
+    Choose a day one week from now and time as 10 AM.
+    Enter data for all fields (name, email, phone, comments, checkbox)
+    Click on “SEND REQUEST”
+    Check for “THANK YOU FOR YOUR REQUEST” to pass the test case.
+As a customer, I can sign up for regular updates.
+    Click on “Get My Updates” in the given URL.
+    Enter data for email and name
+    Click on “SEND REQUEST” button
+    Look for “Thank You!” Text as a success message and confirm that it is present
+    Click on “X” to close the modal dialog
