@@ -46,6 +46,7 @@ describe('As a customer, I can submit an appointment request.', function() {
         apppage.selectradio('phone').click();
         apppage.dateselect.click(); 
         apppage.timeselect('10:00 AM');
+        apppage.name.waitForVisible(2000);
         apppage.name.click().keys('Name');
         apppage.email.click().keys('abc@def.com');
         apppage.phone.click().keys('5146214047');
